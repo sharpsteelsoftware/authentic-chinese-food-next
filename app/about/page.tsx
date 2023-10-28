@@ -1,8 +1,10 @@
-
-export default function Home() {
+export default function AboutPage() {
   return (
-    <main className="text-center uppercase mt-24 text-4xl">
-      about...
-    </main>
+    <div>
+      <h1>About</h1>
+      <p>
+        This is a website for browsing authentic Chinese food.
+      </p>
+    </div>
   )
 }

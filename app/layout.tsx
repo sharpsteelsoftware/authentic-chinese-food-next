@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Authentic Chinese Food',
-  description: 'Enjoy browsing diffrerent kinds of chinese cuisine.',
+      description: 'Enjoy browsing diffrerent kinds of chinese cuisine.',
 }
-
+  
 export default function RootLayout({
   children,
 }: {
