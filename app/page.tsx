@@ -1,4 +1,5 @@
 import { Debug } from '@/components/debug'
+import { Navigate } from '@/components/nav'
 import { sanityClient } from '@/lib/sanity'
 
 export default async function Home() {
@@ -6,8 +7,9 @@ export default async function Home() {
   // const res = await fetch('https://api.github.com/repos/vercel/next.js');
   const result = await sanityClient.fetch('*[_type == "cuisine"]')
   return (
-    <main className='mt-24 text-center text-4xl uppercase'>
-      <Debug data={result} />
+    <main className=''>
+     
+      {/* <Debug data={result} /> */}
     </main>
   )
 }
